@@ -43,5 +43,44 @@ public class project {
     main(String arg[])
     {
         guessingNumberGame();
+        
     }
 }   
+
+// code for scorecard
+import javax.swing.JOptionPane;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+        String inputString;
+        int total;
+        int Score1;
+        int Score2;
+        int Score3;
+        int sum;
+
+        public void userInput () {
+            inputString = JOptionPane.showInputDialog("Enter Test Score #1");
+            Score1 = Integer.parseInt(inputString);
+            inputString = JOptionPane.showInputDialog("Enter Test Score #2");
+            Score2 = Integer.parseInt(inputString);
+            inputString = JOptionPane.showInputDialog("Enter Test Score #3");
+            Score3 = Integer.parseInt(inputString);
+        }
+
+
+        public void sumOfInput () {
+            sum = Score1 + Score2 + Score3;
+        }
+
+        public int averageScore () {
+            int average;
+            average = (sum / 3);
+            return average;
+        }
+
+        public void displayAverage () {
+            JOptionPane.showMessageDialog(null, "Hello, your average score " + averageScore());
+        }
