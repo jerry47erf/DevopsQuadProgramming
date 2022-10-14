@@ -54,7 +54,22 @@ public class Main {
     public static void main(String[] args) {
 
     }
+    
+        String inputString;
+        int total;
+        int Score1;
+        int Score2;
+        int Score3;
+        int sum;
 
+        public void userInput () {
+            inputString = JOptionPane.showInputDialog("Enter Test Score #1");
+            Score1 = Integer.parseInt(inputString);
+            inputString = JOptionPane.showInputDialog("Enter Test Score #2");
+            Score2 = Integer.parseInt(inputString);
+            inputString = JOptionPane.showInputDialog("Enter Test Score #3");
+            Score3 = Integer.parseInt(inputString);
+        }
 
         public void sumOfInput () {
             sum = Score1 + Score2 + Score3;
