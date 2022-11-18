@@ -19,7 +19,7 @@ public class project {
             guess = sc.nextInt();
             
 //Code by Shudhanshu Raj
-        if (number == guess) {
+       if (number == guess) {
                 System.out.println("Congratulations!" + " You guessed the number.");
                 break;
             }
