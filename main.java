@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Code by Bhavya Negi
 public class project {
     public static void
     guessingNumberGame()
@@ -18,7 +18,7 @@ public class project {
             System.out.println("Guess the number:");
             guess = sc.nextInt();
             
-            
+//Code by Shudhanshu Raj
         if (number == guess) {
                 System.out.println("Congratulations!" + " You guessed the number.");
                 break;
@@ -39,6 +39,8 @@ public class project {
             System.out.println("The number was " + number);
         }
     }
+    
+//Code done by Swati Pal
     public static void
     main(String arg[])
     {
@@ -46,6 +48,8 @@ public class project {
         
     }
 }   
+
+
 
 // code for scorecard
 import javax.swing.JOptionPane;
@@ -61,7 +65,8 @@ public class Main {
         int Score2;
         int Score3;
         int sum;
-
+    
+//Code by Priyanshu Rai
         public void userInput () {
             inputString = JOptionPane.showInputDialog("Enter Test Score #1");
             Score1 = Integer.parseInt(inputString);
